@@ -15,12 +15,12 @@ This is an Android application that accesses information about instructors and l
 
 It accesses and manipulates data, which is available in JSON format using a REST-like interface via http using the following links where 'n' is id of instructor and 'k' is rating.
 GET URL's
-*http://bismarck.sdsu.edu/rateme/list
-*http://bismarck.sdsu.edu/rateme/instructor/n
-*http://bismarck.sdsu.edu/rateme/comments/n
+* http://bismarck.sdsu.edu/rateme/list
+* http://bismarck.sdsu.edu/rateme/instructor/n
+* http://bismarck.sdsu.edu/rateme/comments/n
 POST URL's
-*http://bismarck.sdsu.edu/rateme/rating/n/k
-*http://bismarck.sdsu.edu/rateme/comment/n
+* http://bismarck.sdsu.edu/rateme/rating/n/k
+* http://bismarck.sdsu.edu/rateme/comment/n
 
 It requires network access to get details of instructors and allows to rate and comment only when connected to internet. 
 When data is accessed by the application, it caches the data locally to avoid downloading the same data repeatedly. Cached data is deleted when user exits the application.
